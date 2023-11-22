@@ -1,0 +1,260 @@
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+.head{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    float: left;
+    z-index: 2;
+    position: fixed;
+    top: 0px;
+
+}
+.headl{
+    height: 80px;
+    width: 364px;
+    background-color: black;
+    float:left;
+
+    
+}
+.imglogo{
+    font-weight: bold;
+    height: 44px;
+    width: 358px;
+    margin-top: 19px;
+    float: left;
+
+    
+}
+.headm{
+height: 80px;
+width: 406px;
+/* background-color: blueviolet; */
+float: left;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+
+}
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-left: 22px;
+    transition: opacity 0.15s;
+    /* margin-top: 20px; */
+    /* margin-bottom: 0px; */
+    /* padding-top: 20px; */
+
+}
+a:hover{
+    color: grey;
+    opacity: 0.8;
+}
+.text a{
+    margin-top:30px;
+}
+
+
+.headr{
+    height: 80px;
+    width: 432px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main{
+    height: 576px;
+    width: 100%;
+    /* background-color: chartreuse; */
+    position: relative;
+    /* top: -80px; */
+    z-index: 0;
+
+}
+.content{
+    background-color: #9c4041;
+    height: 720px;
+    width: 100%;
+    margin-top: -85px;
+
+}
+.pic{
+    height: 300px;
+    width: 50%;
+    float: left;
+}
+.contentl{
+    /* background-color: rgb(11, 11, 11); */ 
+    height: 674px;
+    width: 50%;
+    float: left;
+
+}
+.sub{
+    color: white;
+    font-family: sans-serif;
+    padding-left: 81px;
+    margin-top: 127px;
+
+}
+.text{
+    font-size: 48px;
+    font-family: sans-serif;
+    color: #f1eded;
+    font-weight: bold;
+    padding-left: 81px;
+    padding-top: 156px;
+    margin-top: -115px;
+}
+.para{
+    color: white;
+    font-size: 15px;
+    padding-left: 81px;
+    font-family:'Montserrat', sans-serif;
+    line-height: 25px;
+
+}
+.btn{
+    height: 43px;
+    width: 126px;
+    border-color: #bc9e33;
+    background: transparent;
+    color:#bc9e33;
+    border-style: solid;
+    margin-left: 81px;
+    margin-top: 16px;
+    
+}
+.btn:hover{
+    background-color:#bc9e33;;
+    color: black;
+    transition-duration: 0.8s;
+}
+.last{
+    background-color: #0b0a0a;
+    height: 200px;
+    width: 100%;
+    float: left;
+}
+.left{
+    /* background-color:  */
+    height: 200px;
+    width: 700px;
+    float: left;
+}
+.right{
+    /* background-color: greenyellow; */
+    height: 200px;
+    width: 502px;
+    float: left;
+    
+}
+.heading{
+    font-size: 32px;
+    font-family: sans-serif; ;
+    color: #7c682a;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    font-weight: lighter;
+    padding-top: 10px;
+}
+.para1{
+    color: #d1bd74;
+    font-size: 16px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+
+
+}
+.btn1{
+    height: 50px;
+    width: 164px;
+    font-size: 15px;
+    border-color: #bc9e33;
+    background: transparent;
+    color:#bc9e33;
+    border-style: solid;
+    margin-left: 223px;
+    margin-top: 60px;
+}
+.btn1:hover{
+    background-color:#bc9e33;;
+    color: black;
+    transition-duration: 0.8s;
+}
+.footer{
+    background-color: #0b0a0a;
+    height: 310px;
+    width: 100%;
+    float: left;
+}
+.footerl{
+    height: 300px;
+    width: 364px;
+    float:left;
+}
+.camerylogo{
+    font-weight: bold;
+    height: 43px;
+    width: 358px;
+    margin-top: 126px;
+    float: left;
+}
+.footerm{
+    height: 300px;
+    width: 406px;
+     /* background-color: blueviolet;  */
+    float: left;
+ 
+}
+.details{
+    color: #d1bd74;
+    /* color: #7c682a; */
+     font-size: 18px;
+     font-family:sans-serif ;
+     margin-top: 80px;
+     margin-left: 80px;
+     line-height: 25px;
+     font-weight: lighter;
+}
+.contact{
+    color: #d1bd74;
+     font-size: 18px;
+     font-family:sans-serif ;
+     margin-bottom: 10px;
+     margin-left: 80px;
+     line-height: 25px;
+}
+.footerR{
+    height: 80px;
+    width: 432px;
+    float: left;
+    
+}
+.link{
+    color: #d1bd74;
+    line-height: 35px;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 130px;
+    padding-top: 10px;
+    transition: opacity 0.10s;
+
+}
+.link:hover{
+    color: #bc9e33;
+    opacity: 0.8;
+}
